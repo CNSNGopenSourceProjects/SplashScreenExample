@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ceu_com_nuvens"
+    android:orientation="vertical"
+    tools:context="br.com.conseng.splashscreenexample.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/parte_superior"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/quantidade_de_inscritos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:text="@string/quantidade_de_inscritos"
+            android:textColor="@color/cor_laranja_claro"
+            android:textSize="60sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/clientes_inscritos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="@string/clientes_inscritos"
+            android:textAlignment="center"
+            android:textColor="@color/cor_de_fundo"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/parte_inferior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/foguete_decolando3"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/botao_inscricao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonstyle"
+            android:text="@string/inscreva_se" />
+    </LinearLayout>
+</LinearLayout>
