@@ -16,5 +16,7 @@ class MainActivity : AppCompatActivity() {
         parte_superior.animation = uptodown
         val downtoup : Animation = AnimationUtils.loadAnimation(applicationContext, R.anim.downtoup)
         parte_inferior.animation = downtoup
+        val rotatebutton : Animation = AnimationUtils.loadAnimation(applicationContext, R.anim.buttonrotate)
+        botao_inscricao.animation = rotatebutton
     }
 }
